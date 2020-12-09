@@ -80505,7 +80505,7 @@ m=M.Nu(P.ar(["latitude",-27.112348,"longitude",-109.349696],o,n))
 l=C.c
 s=3
 return P.J(new S.mD().guw(),$async$dz)
-case 3:if(l.H(b.z.toLowerCase(),"safari".toLowerCase())){q=M.Nu(P.ar(["latitude",-16,"longitude",-50,"altitude",1e4],o,n))
+case 3:if(l.H(b.z.toLowerCase(),"safari".toLowerCase())){q=M.Nu(P.ar(["latitude",-16,"longitude",-50,"altitude",1e5],o,n))
 s=1
 break}o=p.a
 o.toString
