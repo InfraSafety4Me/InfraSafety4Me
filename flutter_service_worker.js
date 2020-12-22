@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "9eca5a32e1836de6052c413120a2d856",
+  "assets/AssetManifest.json": "d7a50def7d802172ae79a68a57179a0f",
 "assets/assets/animations/GameBackgroundMobile.json": "976b44632e2419a09e0e049e88a712bf",
 "assets/assets/animations/GameBackgroundWeb.json": "e74200d6afe4313a6e2a9546c404411f",
 "assets/assets/animations/GameExplain.json": "1d5ea95b73ae09856dd1c2b7e9c024be",
@@ -62,7 +62,7 @@ const RESOURCES = {
 "assets/assets/images/YWhiteLogo.png": "1e57e68851df204256d53cc0aa085bb9",
 "assets/FontManifest.json": "f2702f96f1e2abe16334a4bf89e38c9f",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "b74d5502d0e9e6d79ba2fe490a9f6cb8",
+"assets/NOTICES": "c1e0d710a1b469bce194edb851117db4",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_google_maps/assets/images/marker_a.png": "9b687e681fcc41298dfab9c1304b66d0",
 "assets/packages/flutter_google_maps/assets/images/marker_b.png": "bb8df73622307b582f89602743f4f02f",
@@ -85,9 +85,9 @@ const RESOURCES = {
 "favicon.png": "cb08503dd068a65b09d0db62578bf0f5",
 "icons/Icon-192.png": "c4553ce1cf349e24ec2c7b03336a09a1",
 "icons/Icon-512.png": "7ec73b601ef160284c0784e395583c65",
-"index.html": "c9964f7bd643d70daadb45277774b2d2",
-"/": "c9964f7bd643d70daadb45277774b2d2",
-"main.dart.js": "f7d4f604f1e03070acc292719bbee543",
+"index.html": "e24a6d49d9e017096b0d509f8b38a6d6",
+"/": "e24a6d49d9e017096b0d509f8b38a6d6",
+"main.dart.js": "e39c42af5baa1d2fb6f275d4e119a2e9",
 "manifest.json": "0b0d8f1dc5bde94cd5450869c5d02e38",
 "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
 "web.config": "aed38029707c2c336c596f111d53eed5"
