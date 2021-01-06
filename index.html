@@ -24,7 +24,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=558437995');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2362582714');
       });
     }
   </script>
@@ -50,7 +50,8 @@
                 badge: 'icons/Badge-192.png',
                 body: 'Você já fez a avaliação do serviço de saúde hoje?',
                 icon: 'icons/Icon-192.png',
-                vibrate: [200, 100, 200, 100, 200, 100, 200]
+                vibrate: [200, 100, 200, 100, 200, 100, 200],
+                actions: [{action: "open_url", title: "Read Now"}]
               }
             );
           }, 5000))
@@ -58,7 +59,19 @@
       } catch (err) {
         alert('Notification API error: ' + err);
       }
+    }    
+
+    self.addEventListener('notificationclick', function(event) {
+      switch(event.action){
+        case 'open_url':
+        clients.openWindow("https://app.safety4me.com"); //which we got from above
+        break;
+        case 'any_other_action':
+        clients.openWindow("https://app.safety4me.com");
+        break;
+      }
     }
+    , false);
 
     requestPermission();
     persistentNotification();
