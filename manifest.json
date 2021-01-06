@@ -7,6 +7,9 @@
     "theme_color": "#00A3BB",
     "description": "Safety4Me",
     "orientation": "portrait-primary",
+    "permissions": [
+        "background"
+    ],
     "prefer_related_applications": false,
     "icons": [
         {
