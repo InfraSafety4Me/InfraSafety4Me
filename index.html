@@ -24,7 +24,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2362582714');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3656210163');
       });
     }
   </script>
@@ -50,31 +50,18 @@
                 badge: 'icons/Badge-192.png',
                 body: 'Você já fez a avaliação do serviço de saúde hoje?',
                 icon: 'icons/Icon-192.png',
-                vibrate: [200, 100, 200, 100, 200, 100, 200],
-                actions: [{action: "open_url", title: "Read Now"}]
+                vibrate: [200, 100, 200, 100, 200, 100, 200]
               }
             );
-          }, 5000))
+          }, 1000))
           .catch((err) => alert('Service Worker registration error: ' + err));
       } catch (err) {
         alert('Notification API error: ' + err);
       }
-    }    
-
-    self.addEventListener('notificationclick', function(event) {
-      switch(event.action){
-        case 'open_url':
-        clients.openWindow("https://app.safety4me.com"); //which we got from above
-        break;
-        case 'any_other_action':
-        clients.openWindow("https://app.safety4me.com");
-        break;
-      }
     }
-    , false);
 
     requestPermission();
-    persistentNotification();
+    persistentNotification();    
   </script>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -120,6 +107,6 @@
 
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWAGG1hdrY_kkzz_MAYhlepuA6DZjqw_c"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
-  <script src="main.dart.js?version=37" type="application/javascript"></script>
+  <script src="main.dart.js?version=38" type="application/javascript"></script>
 </body>
 </html>
