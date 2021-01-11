@@ -85865,7 +85865,7 @@ q=t.M
 p=T.h("Type a comment",n,"typeAComment",H.a([],q),n)
 r=T.ay(T.bn(Z.xj(!0,n,!1,n,i.x,n,n,n,2,L.nY(n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n,!1,n,A.dg(n,n,C.aD.i(0,400),n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n),p,n,n,n,n,n,n,n,n,n,n,n),!0,!0,n,!1,n,n,n,n,n,!0,1,n,!1,"\u2022",n,n,n,n,!1,C.du,n,n,n,n,n,n,r.y,C.A,n,C.ed,n,n,n),n,n),2)
 $.j.toString
-return new Q.iJ(o.b.b*0.7,H.a([new M.bY(1,k,j,C.A,C.l,n),new M.bY(2,h,g,C.A,C.l,n),m,s,r,new Q.bN(L.T(T.h("Send",n,"send",H.a([],q),n),n,n,n,n,n,K.q(a).C.ch.a4(C.a5),n),new Z.atT(i,a),C.D,o.e,n)],t.t),l,n)},
+return new Q.iJ(o.b.b*0.75,H.a([new M.bY(1,k,j,C.A,C.l,n),new M.bY(2,h,g,C.A,C.l,n),m,s,r,new Q.bN(L.T(T.h("Send",n,"send",H.a([],q),n),n,n,n,n,n,K.q(a).C.ch.a4(C.a5),n),new Z.atT(i,a),C.D,o.e,n)],t.t),l,n)},
 $S:645}
 Z.atQ.prototype={
 $0:function(){return this.a.cd(0)},
