@@ -24,7 +24,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=874656861');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1978747680');
         navigator.serviceWorker.register('safety4me_service_worker.js');
       });
     }
@@ -51,7 +51,12 @@
                 badge: 'icons/Badge-192.png',
                 body: 'Você já fez a avaliação do serviço de saúde hoje?',
                 icon: 'icons/Icon-192.png',
-                vibrate: [200, 100, 200, 100, 200, 100, 200]
+                vibrate: [200, 100, 200, 100, 200, 100, 200],
+                actions: [  
+                  { 
+                    action: 'abrir', title: 'Abrir' 
+                  }
+                ]
               }
             );
           }, 10000)
@@ -109,6 +114,6 @@
 
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWAGG1hdrY_kkzz_MAYhlepuA6DZjqw_c"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
-  <script src="main.dart.js?version=52" type="application/javascript"></script>
+  <script src="main.dart.js?version=53" type="application/javascript"></script>
 </body>
 </html>
