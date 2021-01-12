@@ -24,7 +24,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2024740645');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2516782939');
         navigator.serviceWorker.register('safety4me_service_worker.js');
       });
     }
@@ -54,7 +54,8 @@
                 vibrate: [200, 100, 200, 100, 200, 100, 200]
               }
             );
-          }, 5000)
+            //1 hora.
+          }, 1000)
           .catch((err) => alert('Service Worker registration error: ' + err));
         })
       } catch (err) {
@@ -109,6 +110,6 @@
 
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWAGG1hdrY_kkzz_MAYhlepuA6DZjqw_c"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
-  <script src="main.dart.js?version=54" type="application/javascript"></script>
+  <script src="main.dart.js?version=55" type="application/javascript"></script>
 </body>
 </html>
