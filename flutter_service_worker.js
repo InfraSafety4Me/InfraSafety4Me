@@ -224,7 +224,7 @@ self.addEventListener('message', (event) => {
 
 self.addEventListener('notificationclick', function (event) {
   event.notification.close();
-  clients.openWindow("https://youtu.be/PAvHeRGZ_lA");
+  clients.openWindow("https://app.safety4me.com/#/");
 });
 
 // Download offline will check the RESOURCES for all files not in the cache
