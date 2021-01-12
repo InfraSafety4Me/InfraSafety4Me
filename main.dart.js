@@ -10369,7 +10369,7 @@ xy:function xy(a){this.a=a},
 aKV:function(a,b,c){var s=K.q(a)
 if(c>0)s.toString
 return b},
-aFJ:function(){switch("dev"){case"hml":return C.Ji
+aFJ:function(){switch("hml"){case"hml":return C.Ji
 case"prod":return C.pW
 default:return C.Jh}}},T={
 aGD:function(a,b,c,d){var s,r
@@ -80829,7 +80829,7 @@ if(this.aQ(a))s=0.6
 else s=b?0.8:0.95
 return r.a.a*s},
 ow:function(a){return this.Ih(a,!1)},
-B7:function(){switch("dev"){case"hml":return"https://infrasafety4me.github.io/#/"
+B7:function(){switch("hml"){case"hml":return"https://infrasafety4me.github.io/#/"
 case"prod":return"https://app.safety4me.com/#/"
 default:return"http://localhost:2021/#/"}},
 $iaG0:1}

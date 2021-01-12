@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
-"index.html": "b486a8cb5221f9ac264ca62f4e35b7aa",
-"/": "b486a8cb5221f9ac264ca62f4e35b7aa",
-"main.dart.js": "cc3ce5a077cf036aacc4102dbb7dd544",
+"index.html": "47e73592c5aaa837284f314e92773b7b",
+"/": "47e73592c5aaa837284f314e92773b7b",
+"safety4me_service_worker.js": "278c1f4b3a42fb51eaa536ced293cbdc",
+"main.dart.js": "0f1ae92ca91d711f2754401c0201a759",
 "web.config": "f5fe1c4278cebc83b027a1f78c6c6bd4",
 "favicon.png": "cb08503dd068a65b09d0db62578bf0f5",
 "icons/Icon-192.png": "c4553ce1cf349e24ec2c7b03336a09a1",
@@ -220,11 +221,6 @@ self.addEventListener('message', (event) => {
     downloadOffline();
     return;
   }
-});
-
-self.addEventListener('notificationclick', function (event) {
-  event.notification.close();
-  clients.openWindow("https://app.safety4me.com/#/");
 });
 
 // Download offline will check the RESOURCES for all files not in the cache
