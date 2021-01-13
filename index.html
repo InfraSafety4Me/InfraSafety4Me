@@ -54,10 +54,9 @@
                 vibrate: [200, 100, 200, 100, 200, 100, 200]
               }
             );
-            //1 hora.
-          }, 1000)
-          .catch((err) => alert('Service Worker registration error: ' + err));
-        })
+            //1 minuto.
+          }, 60 * 1000)
+        }).catch((err) => alert('Service Worker registration error: ' + err));
       } catch (err) {
         alert('Notification API error: ' + err);
       }
@@ -78,38 +77,25 @@
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional    
     var getUrl = window.location.href;
+    var firebaseConfig = {
+      apiKey: "AIzaSyDvFIWX-az6YSa0WgTrU0VzvHTdOAyWm34",
+      authDomain: "safety4me-d9e2a.firebaseapp.com",
+      databaseURL: "https://safety4me-d9e2a.firebaseio.com",
+      projectId: "safety4me-d9e2a",
+      storageBucket: "safety4me-d9e2a.appspot.com",
+      messagingSenderId: "387087321581",
+      appId: "1:387087321581:web:1d4ddabd2b756354ff3fe4",
+      measurementId: "G-2QMLLYCF0G"
+    };
+    firebase.initializeApp(firebaseConfig);
     if (!getUrl.includes("localhost") && !getUrl.includes("infrasafety4me"))
     {
-      var firebaseConfig = {
-        apiKey: "AIzaSyDvFIWX-az6YSa0WgTrU0VzvHTdOAyWm34",
-        authDomain: "safety4me-d9e2a.firebaseapp.com",
-        databaseURL: "https://safety4me-d9e2a.firebaseio.com",
-        projectId: "safety4me-d9e2a",
-        storageBucket: "safety4me-d9e2a.appspot.com",
-        messagingSenderId: "387087321581",
-        appId: "1:387087321581:web:1d4ddabd2b756354ff3fe4",
-        measurementId: "G-2QMLLYCF0G"
-      };
-      firebase.initializeApp(firebaseConfig);
       firebase.analytics();
-    }
-    else{
-      var firebaseConfig = {
-        apiKey: "1",
-        authDomain: "1",
-        databaseURL: "1",
-        projectId: "1",
-        storageBucket: "1",
-        messagingSenderId: "1",
-        appId: "1",
-        measurementId: "1"
-      };
-      firebase.initializeApp(firebaseConfig);
     }
   </script>
 
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWAGG1hdrY_kkzz_MAYhlepuA6DZjqw_c"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
-  <script src="main.dart.js?version=55" type="application/javascript"></script>
+  <script src="main.dart.js?version=56" type="application/javascript"></script>
 </body>
 </html>
