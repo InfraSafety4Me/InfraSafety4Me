@@ -26719,19 +26719,17 @@ _.a=null
 _.b=d
 _.c=null},
 azS:function azS(a){this.a=a},
-azR:function azR(a,b,c,d,e){var _=this
+azR:function azR(a,b,c,d){var _=this
+_.a=a
+_.b=b
+_.c=c
+_.d=d},
+azQ:function azQ(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e},
-azQ:function azQ(a,b,c,d,e,f){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d
-_.e=e
-_.f=f},
 azE:function azE(a){this.a=a},
 azF:function azF(a){this.a=a},
 azI:function azI(a){this.a=a},
@@ -91399,7 +91397,7 @@ return p.rh(H.a([i,r,T.i(l,o,k,H.a([],h),o),s],q))}},
 u:function(a,b){var s=null,r=new A.aJ().aO(b),q=this.f.py()
 return r?new V.ex(s,s,this.SW(b,q),s):new M.SR(new E.ev(this.SW(b,q),s),s)},
 SW:function(a,b){var s=a.v(t.w).f,r=new A.aJ().aO(a)?0.3:0.65
-return new O.SS(new Z.azR(this,s.a,new A.aJ().aO(a),b,r),null)},
+return new O.SS(new Z.azR(this,s.a,new A.aJ().aO(a),r),null)},
 tb:function(a){this.J(new Z.azT(this,a))},
 YR:function(a){switch(a){case C.aE:return"/dashboard/safety_pathway/dialysis_map_levels"
 case C.aD:return"/dashboard/safety_pathway/image_exams_map_levels"
@@ -91412,7 +91410,7 @@ s.a=s.a+(H.d(a)+" ")},
 $S:3}
 Z.azR.prototype={
 $2:function(a,b){var s=this,r=s.a
-return new V.f0(new T.dr(new Z.azQ(r,s.b,s.c,b,s.d,s.e),null),r.e,null)},
+return new V.f0(new T.dr(new Z.azQ(r,s.b,s.c,b,s.d),null),r.e,null)},
 $C:"$2",
 $R:2,
 $S:698}
@@ -91421,7 +91419,7 @@ $1:function(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=h.c
 if(f)s=0.7
 else s=h.d?0.45:0.7
 r=f?C.k:C.O
-q=h.e.e
+q=J.ar(h.d)
 p=K.p(a).B.f.a_(K.p(a).b)
 o=h.a
 n=o.XY()
@@ -91436,7 +91434,7 @@ j=t.M
 i=T.i("Type a comment",g,"typeAComment",H.a([],j),g)
 k=T.aC(T.bk(Z.ks(!0,g,!1,g,o.x,g,g,g,2,L.iu(g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,!1,g,A.dy(g,g,C.aG.i(0,400),g,g,g,g,g,g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g),i,g,g,g,g,g,g,g,g,g,g,g),!0,!0,g,!1,g,g,g,g,g,!0,1,g,!1,"\u2022",g,g,g,g,!1,C.bC,g,g,g,g,g,g,k.y,C.A,g,C.bG,g,g,g),g,g),2)
 $.j.toString
-return new Q.jf(h.b.b*s,H.a([new M.c1(1,q,p,C.A,C.k,g),new M.c1(2,n,m,C.A,C.k,g),f,l,k,new Q.bF(L.S(T.i("Send",g,"send",H.a([],j),g),g,g,g,g,g,K.p(a).B.ch.a_(C.a4),g),new Z.azH(o,a),C.F,h.f,g)],t.t),r,g)},
+return new Q.jf(h.b.b*s,H.a([new M.c1(1,q,p,C.A,C.k,g),new M.c1(2,n,m,C.A,C.k,g),f,l,k,new Q.bF(L.S(T.i("Send",g,"send",H.a([],j),g),g,g,g,g,g,K.p(a).B.ch.a_(C.a4),g),new Z.azH(o,a),C.F,h.e,g)],t.t),r,g)},
 $S:699}
 Z.azE.prototype={
 $0:function(){return this.a.cm(0)},
