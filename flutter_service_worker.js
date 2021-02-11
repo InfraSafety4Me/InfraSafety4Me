@@ -4,17 +4,17 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
-"index.html": "28e2e2510d76bb4ceb7ce6f9716cfbed",
-"/": "28e2e2510d76bb4ceb7ce6f9716cfbed",
+"index.html": "8fa492cd70b197c1c0d9b23d8876df55",
+"/": "8fa492cd70b197c1c0d9b23d8876df55",
 "safety4me_service_worker.js": "2c5a6c636118722efbd677dc12f57ff5",
-"main.dart.js": "6801b809bf5ec5029d7dc9c5cde2f899",
+"main.dart.js": "739a9361a55063255a29b58244f99a36",
 "web.config": "f5fe1c4278cebc83b027a1f78c6c6bd4",
 "favicon.png": "cb08503dd068a65b09d0db62578bf0f5",
 "icons/Icon-192.png": "c4553ce1cf349e24ec2c7b03336a09a1",
 "icons/Badge-192.png": "80923c2099d629dcc13e7d9a74297c79",
 "icons/Icon-512.png": "7ec73b601ef160284c0784e395583c65",
 "manifest.json": "cd388b4185c0071e90c205df95b3b483",
-"assets/AssetManifest.json": "6aeb530678a981aa4e67996989c52e14",
+"assets/AssetManifest.json": "bc875f17d2a6a06f6824893902067e80",
 "assets/NOTICES": "6a09a314aaa1640afd690a5bca56d236",
 "assets/FontManifest.json": "f2702f96f1e2abe16334a4bf89e38c9f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
@@ -68,6 +68,7 @@ const RESOURCES = {
 "assets/assets/images/Heart.png": "d2e877804a8dafbdf15fc7c237f37bae",
 "assets/assets/images/MobileBackground.png": "241fad318ca06b2d7474dabdacbb65cc",
 "assets/assets/images/GracaRounded.png": "cda2ff1420508f64c84f6772b18665b8",
+"assets/assets/images/ChatBalloon.png": "c34ec7f255a84a7214425019d66c0bdf",
 "assets/assets/images/SplashScreenBackground.png": "479d94df8cf1df3f4d13f107801c624b",
 "assets/assets/images/Florence.png": "068841f6ca5803cf94f553cf49d1ecc9",
 "assets/assets/images/DesktopBackgroundEmpty.png": "344e66eda2e6220d428c6c963315e432",
@@ -93,9 +94,15 @@ const RESOURCES = {
 "assets/assets/fonts/Roboto-ThinItalic.ttf": "35a9c89aff1396595ad345e378a32aca",
 "assets/assets/fonts/Roboto-LightItalic.ttf": "a3ce4440f2abf76f4a1b14b83920138c",
 "assets/assets/fonts/Roboto-Thin.ttf": "321de678e592d0b8f44f1a82d7ca4b62",
+"assets/assets/animations/HomeAnaAndHector.json": "3577ea3469ac0dafccca8e7dc6ecf03f",
 "assets/assets/animations/GameExplain.json": "1d5ea95b73ae09856dd1c2b7e9c024be",
 "assets/assets/animations/GameBackgroundMobile.json": "976b44632e2419a09e0e049e88a712bf",
-"assets/assets/animations/GameBackgroundWeb.json": "e74200d6afe4313a6e2a9546c404411f"
+"assets/assets/animations/GameBackgroundWeb.json": "e74200d6afe4313a6e2a9546c404411f",
+"assets/assets/animations/HomeAnaAndGraca.json": "d406eb5d02d386139b50ece52d3d52d3",
+"assets/assets/animations/HomeHectorAndFernando.json": "726f9b58aea48ce1299a87fba99b8fe7",
+"assets/assets/animations/HomeAntoniaAndRafael.json": "de9098cc9e802d17752907160e202632",
+"assets/assets/animations/HomeRafaelAndFlorence.json": "7622139131e00240207970afe12f4f0f",
+"assets/assets/animations/HomeFlorenceAndFernando.json": "036de2e6aa7570b078c7c750a11fcd82"
 };
 
 // The application shell files that are downloaded before a service worker can
