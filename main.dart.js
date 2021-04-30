@@ -105895,11 +105895,10 @@ $1:function(a){var s,r=null,q=this.a
 q.L(new Y.aM2(q))
 if(this.b<5)q.e.yx()
 else{q.L(new Y.aM3(q))
-s=this.c.v(t.q)
+if(q.cy.cy!=="Clinoson Diagn\xf3stico por Imagem"){s=this.c.v(t.q)
 s.toString
 $.j.toString
-s.f.bK(M.bH(L.Q(T.h("Safety goal assessment sent successfully",r,"safetyGoalSentSuccessfully",H.a([],t.M),r),r,r,r,r,r,r,r,r),C.dL))
-P.dK(P.b5(0,0,0,4),new Y.aM4(q),t.P)}},
+s.f.bK(M.bH(L.Q(T.h("Safety goal assessment sent successfully",r,"safetyGoalSentSuccessfully",H.a([],t.M),r),r,r,r,r,r,r,r,r),C.dL))}P.dK(P.b5(0,0,0,4),new Y.aM4(q),t.P)}},
 $S:20}
 Y.aM2.prototype={
 $0:function(){this.a.d=!1},
