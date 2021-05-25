@@ -99588,7 +99588,7 @@ m.a=n
 s=p!=="/"?6:8
 break
 case 6:if(p==="/clinoson_avaliacoes"){n.cx="/dashboard/safety_pathway/image_exams_diary"
-n.db="Porto Alegre"}else if(p==="/onco_avaliacoes"){n.cx="/dashboard/safety_pathway/chemotherapy_diary"
+n.db="Porto Alegre"}else if(p==="/oncotrata_clinica_medica"){n.cx="/dashboard/safety_pathway/chemotherapy_diary"
 n.db="Porto Alegre"}m.b=null
 s=9
 return P.o(G.w(null,null,null,null,t.gw).hD(),$async$oM)
@@ -99668,7 +99668,7 @@ return P.o(G.w(null,null,null,null,t.hX).hc(l.b.gqw()),$async$$1)
 case 10:k.cy=c
 s=8
 break
-case 9:s=n==="/onco_avaliacoes"?11:12
+case 9:s=n==="/oncotrata_clinica_medica"?11:12
 break
 case 11:k=l.a
 s=13
