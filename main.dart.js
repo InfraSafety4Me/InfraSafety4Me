@@ -107420,7 +107420,7 @@ if(q===C.ak){o.toString
 q=T.f("Evaluation after the exam",l,"imagingExamsDiary",H.a([],n),l)}else{o.toString
 q=T.f("Evaluation of today's session",l,"evaluationOfTodaysSession",H.a([],n),l)}q=L.O(q,l,l,l,l,l,K.n(a).B.ch.a0(K.n(a).x),l,l)
 o=t.t
-o=H.a([new M.c0(1,j,i,C.A,C.k,l),s,new F.dD(H.a([r,L.ex(Q.bX(K.n(a).b,q,l,new S.aOp(m),l,h),p)],o),C.ay,l)],o)
+o=H.a([new M.c0(2,j,i,C.A,C.k,l),s,new F.dD(H.a([r,L.ex(Q.bX(K.n(a).b,q,l,new S.aOp(m),l,h),p)],o),C.ay,l)],o)
 j=b?C.k:C.J
 return Q.d_(j,k.a.b*0.8,l,o)},
 a3l:function(a){var s=null,r=$.j,q=t.M
