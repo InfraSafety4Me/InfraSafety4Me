@@ -107409,7 +107409,7 @@ return G.t(s,s,s,s,t.A).aE(b)?V.f4(s,s,this.c_(b,!0)):new E.ec(this.c_(b,!1),s)}
 c_:function(a,b){var s,r,q,p,o,n,m=this,l=null,k=a.v(t.w).f,j=G.t(l,l,l,l,t.A).aE(a)?0.3:0.65,i=m.d,h=j*(i===C.ax||i===C.aw||i===C.ak?1.5:1)
 j=m.a2O(i)
 i=K.n(a).B.f.a0(K.n(a).b)
-s=T.aA(X.b6E("assets/animations/GameExplain.json",l),3)
+s=T.aA(X.b6E("assets/animations/GameExplain.json",l),4)
 r=L.O(m.a3l(m.d),l,l,l,l,l,K.n(a).B.ch.a0(K.n(a).x),C.A,l)
 r=Q.bX(K.n(a).b,r,l,new S.aOo(m),l,h)
 q=m.d
@@ -107422,7 +107422,7 @@ q=T.f("Evaluation of today's session",l,"evaluationOfTodaysSession",H.a([],n),l)
 o=t.t
 o=H.a([new M.c0(1,j,i,C.A,C.k,l),s,new F.dD(H.a([r,L.ex(Q.bX(K.n(a).b,q,l,new S.aOp(m),l,h),p)],o),C.ay,l)],o)
 j=b?C.k:C.J
-return Q.d_(j,k.a.b*0.7,l,o)},
+return Q.d_(j,k.a.b*0.8,l,o)},
 a3l:function(a){var s=null,r=$.j,q=t.M
 switch(a){case C.ax:r.toString
 return T.f("Dialysis safety tips",s,"dialysisSafetyTips",H.a([],q),s)
