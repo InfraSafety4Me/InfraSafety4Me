@@ -105871,7 +105871,7 @@ p=t.t
 return Q.xJ(C.j,k,n,H.a([new T.eH("assets/images/FernandoRounded.png",1,n),T.ay(A.b0w(M.ak(n,T.bE(H.a([r,M.f1(o.d,T.e("Enter at least 3 characters",n,"enterAtLeast3Characters",H.a([],m),n),n,C.dP,1,!0,n,new D.atb(o,a),s,q,new D.atc()),new T.dc(new D.atd(o,l),n)],p),C.r,C.X,C.q),C.h,n,n,n,n,k*0.7,n,n,n,n,n),o.e),3)],p))},
 zE:function(a){var s,r,q,p,o,n,m=null
 if(this.e.gaS().vi()){s=R.Vg()===C.kG?"admin":"adminTeste"
-r=R.Vg()===C.kG?"Admin":"NaoUsarAmbienteTeste"
+r=R.Vg()===C.kG?"adm1n":"NaoUsarAmbienteTeste"
 q=J.h0(this.c.a.a)
 p=J.h0(this.d.a.a)
 if(q.length!==0&&q===s)if(p.length!==0&&p===r){o=G.p(m,m,m,m,t.Yc)
