@@ -24,6 +24,7 @@
 
   <title>Safety4Me</title>
   <link rel="manifest" href="manifest.json">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
   <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -59,7 +60,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=285301098');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1257892304');
         navigator.serviceWorker.register('safety4me_service_worker.js');
       });
     }
@@ -132,7 +133,6 @@
   <link rel="stylesheet" type="text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-rKz-5gyXz7lkMqme-a94NogIpp7Nsd8"></script>
   <script>
     var script = document.createElement('script');
     script.src = 'main.dart.js?version=' + Date.now();
