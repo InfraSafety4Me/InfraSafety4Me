@@ -113824,8 +113824,8 @@ p=K.p(b).x
 n=$.m().t(0,t.D).aF(b)?0.3:0.65
 q=T.bS(H.a([r,L.ey(Q.bL(p,o,l,new S.b00(m),l,n),q)],t.p),C.r,C.J,C.p)
 r=q}return new D.et(M.fL(s,C.o,r,l,l,l,l),l)},
-aCK:function(){if(X.uB()==="en_US")return"H5_GpTYTKhc"
-else if(X.uB()==="pt_BR")return"0nDdJUS_S0c"
+aCK:function(){if(X.uB()==="en-US")return"H5_GpTYTKhc"
+else if(X.uB()==="pt-BR")return"0nDdJUS_S0c"
 else return"LsM1Vk5BLUQ"}}
 S.b01.prototype={
 $1:function(a){var s
