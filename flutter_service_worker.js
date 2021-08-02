@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
-"index.html": "bcf6e42f002363932a1bb81bd4f2939e",
-"/": "bcf6e42f002363932a1bb81bd4f2939e",
+"index.html": "0f8559d17e64b3071cf8e37028a7d530",
+"/": "0f8559d17e64b3071cf8e37028a7d530",
 "safety4me_service_worker.js": "79a07849d4bed63174afbb3ab493c482",
-"main.dart.js": "2e3cec1fa2f8d88b62fc915733718c59",
+"main.dart.js": "f338e9f40e120dcdc48f4e699cd4955c",
 "web.config": "f5fe1c4278cebc83b027a1f78c6c6bd4",
 "favicon.png": "cb08503dd068a65b09d0db62578bf0f5",
 "icons/Icon-192.png": "c4553ce1cf349e24ec2c7b03336a09a1",
@@ -101,7 +101,7 @@ const RESOURCES = {
 "assets/assets/images/LogoSafety4MeWhitePacificBlue.png": "ae2a07b9516a46dddb1fdab6631db46e",
 "assets/assets/images/FinalTrophy.png": "619043e4be927c802116e05c208ff8ac",
 "assets/assets/images/TVDoutor.png": "e432a5611fc4657d567c900cf9c10af8",
-"assets/assets/images/IconLogin.png": "8c64ca2d4c81bc942d4af0f665c1ad8d",
+"assets/assets/images/IconLogin.png": "20941603b90ee293709bd5ae188413db",
 "assets/assets/images/LogoSafety4MeWhite.png": "25e5ef0cffd790f38ed304aaabc12a53",
 "assets/assets/images/NewBackground3.png": "804e093cb66146a2d2fa1abfd346d6b3",
 "assets/assets/images/LogoTvDoutor.png": "25bfcda1d5699b1da3943ced894a69b7",
