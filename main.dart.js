@@ -110138,13 +110138,12 @@ r=T.bF(H.a([T.ax(T.eX(C.dW,H.a([s,G.bi4(p.N8(n),j,n.b*0.8,r,n.a),new D.FY(p.ch,p
 k=M.fz(k,C.p,r,X.kz()==="en_US"||X.kz()==="en-US"?p.azl():p.azk(),o,o,o)
 if(p.d){j=!p.e||!1
 j=L.dG(p.XF(n,m),j)
-s=$.bg6()&&!m&&!0
-r=!p.f||!1
-s=new E.Bd(j,L.dG(L.dG(p.TF(n,m),r),s),p.d,"assets/images/IconLogado.png",o)
+$.bg6()
+s=!p.f||!1
+s=new E.Bd(j,L.dG(L.dG(p.TF(n,m),s),!1),p.d,"assets/images/IconLogado.png",o)
 j=s}else{j=p.XF(n,m)
-s=$.bg6()&&!m&&!0
-s=new E.Bd(j,L.dG(p.TF(n,m),s),p.d,"assets/images/IconDeslogado.png",o)
-j=s}return T.bit(T.eX(C.dW,H.a([l,k,Q.CA(!0,T.bF(H.a([new O.DT(o),j],q),C.hd,C.E,C.l),C.ag,!0)],q),C.cO,o,o),new G.b1p(),t.Wg)},
+$.bg6()
+j=new E.Bd(j,L.dG(p.TF(n,m),!1),p.d,"assets/images/IconDeslogado.png",o)}return T.bit(T.eX(C.dW,H.a([l,k,Q.CA(!0,T.bF(H.a([new O.DT(o),j],q),C.hd,C.E,C.l),C.ag,!0)],q),C.cO,o,o),new G.b1p(),t.Wg)},
 N8:function(a){var s,r,q,p,o,n,m=this,l=null,k=a.b,j=U.dC("assets/images/MobileBackgroundEmpty.png",C.cW,k,l),i=k*0.02,h=U.dC("assets/images/YWhiteLogo.png",l,k*0.15,l),g=m.mP(a,0.02)
 $.i.toString
 s=t.f
