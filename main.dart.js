@@ -109737,7 +109737,7 @@ if(r!=null)for(r=P.d0(r,r.r,H.A(r).c);r.t();)r.d.sdT(0,s)
 this.cl()}}
 Z.a5F.prototype={
 F:function(a,b){var s=this,r=null,q=b.v(t.w).f,p=K.e5(5),o=H.a([new O.bC(-2,P.at(51,60,60,59),new P.E(7,7),10)],t.sq),n=A.Td(r,r,new V.fV(new Z.aON(),t.h2),r,r,r,r,r,r,r,r,r,new V.fV(new Z.aOO(),t.Ek),r,r,r,r,r)
-return new T.aj(C.aC,M.am(r,U.nQ(T.bO(H.a([T.aw(new T.aj(C.Fb,U.dM("assets/images/TVDoutor.png",r,r,r),r),1),T.aw(L.K(s.c,r,r,r,r,r,s.d.a3(s.e),r,r),3)],t.p),C.m,r,C.C,C.l),new Z.aOP(),n),C.h,r,r,new S.c2(s.f,r,r,p,o,r,C.a0),r,s.r,r,r,r,r,q.a.a*17976931348623157e292*0.5),r)},
+return new T.aj(C.aC,M.am(r,U.nQ(T.bO(H.a([T.aw(new T.aj(C.Fb,U.dM("assets/images/TVDoutorcoracao.png",r,r,r),r),1),T.aw(L.K(s.c,r,r,r,r,r,s.d.a3(s.e),r,r),3)],t.p),C.m,r,C.C,C.l),new Z.aOP(),n),C.h,r,r,new S.c2(s.f,r,r,p,o,r,C.a0),r,s.r,r,r,r,r,q.a.a*17976931348623157e292*0.5),r)},
 cS:function(a){return this.c.$0()}}
 Z.aOO.prototype={
 $1:function(a){return new X.dn(K.e5(15),C.A)},
