@@ -118136,14 +118136,14 @@ if(r)r="en"
 else{P.xA()
 P.xA()
 r=p.gni(p)==="pt"
-r=r?"pt-BR":"es"}P.xA()
+r=r?"pt":"es"}P.xA()
 P.xA()
 q=p.gni(p)==="en"
 if(q)q="en"
 else{P.xA()
 P.xA()
 q=p.gni(p)==="pt"
-q=q?"pt-BR":"es"}p.f=Y.bpo(s,M.bpq(!0,q,!0,!0,r,!0,!0,!0))
+q=q?"pt":"es"}p.f=Y.bpo(s,M.bpq(!0,q,!0,!0,r,!0,!0,!0))
 r=$.m().q(0,t.h).cF()
 r.toString
 p.r=r
