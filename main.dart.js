@@ -27792,15 +27792,16 @@ _.z=j
 _.Q=k},
 jN:function jN(a){this.a=a},
 OR:function OR(){},
-bpp:function(a,b,c,d,e,f,g,h){return new M.a8M(!0,f,b,!0,!0,!0,e)},
-a8M:function a8M(a,b,c,d,e,f,g){var _=this
+bpp:function(a,b,c,d,e,f,g,h,i){return new M.a8M(!0,g,b,!0,!0,e,!0,f)},
+a8M:function a8M(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.f=e
-_.z=f
-_.Q=g},
+_.x=f
+_.z=g
+_.Q=h},
 bes:function(a){var s=0,r=P.u(t.H),q
 var $async$bes=P.o(function(b,c){if(b===1)return P.q(c,r)
 while(true)$async$outer:switch(s){case 0:a.gR().Co(C.Al)
@@ -109593,7 +109594,7 @@ r.ch=r.Q=!1
 s=$.m()
 r.d=s.q(0,t.h).cF()
 J.m_(s.q(0,t.C),"intro_video")
-r.cx=Y.bpn(r.aBs(),M.bpp(!0,"en",!0,!0,"en",!1,!0,!0))
+r.cx=Y.bpn(r.aBs(),M.bpp(!0,"en",!0,!0,!0,"en",!1,!0,!0))
 r.gE_().a5o(0,new S.b12(r),!0)},
 fv:function(){this.gE_().a52("pause()")
 this.mD()},
@@ -118129,7 +118130,7 @@ if(X.dP()==="en-US"||X.dP()==="en_US"||p.gni(p)==="en")r="en"
 else r=X.dP()==="pt-BR"||X.dP()==="pt_BR"||p.gni(p)==="pt"?"pt":"es"
 if(X.dP()==="en-US"||X.dP()==="en_US"||p.gni(p)==="en")q="en"
 else q=X.dP()==="pt-BR"||X.dP()==="pt_BR"||p.gni(p)==="pt"?"pt":"es"
-p.f=Y.bpn(s,M.bpp(!0,q,!0,!0,r,!0,!0,!0))
+p.f=Y.bpn(s,M.bpp(!0,q,!1,!0,!1,r,!0,!0,!0))
 r=$.m().q(0,t.h).cF()
 r.toString
 p.r=r
@@ -121758,7 +121759,7 @@ p=r.b
 q.k(0,"mute",p.b?n:m)
 q.k(0,"controls",n)
 q.k(0,"playsinline",n)
-q.k(0,"enablejsapi",n)
+q.k(0,"enablejsapi",p.x?n:m)
 q.k(0,"fs",p.z?n:m)
 q.k(0,"rel",n)
 q.k(0,"showinfo",m)
@@ -129391,7 +129392,7 @@ C.anX=new O.oy("YoutubeError.cannotFindVideo")
 C.anY=new O.oy("YoutubeError.sameAsNotEmbeddable")
 C.anZ=new O.oy("YoutubeError.unknown")
 C.B4=new S.a8J("","","",C.W)
-C.apj=new M.a8M(!0,!1,"en",!0,!0,!1,"en")
+C.apj=new M.a8M(!0,!1,"en",!0,!0,!0,!1,"en")
 C.ao_=new U.a8T("_ActivityIndicatorType.adaptive")
 C.Bm=new R.Gj("_SliderAdjustmentType.right")
 C.ao0=new R.n1(C.Bm)
