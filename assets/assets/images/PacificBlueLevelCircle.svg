@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000034051597756007693660000003589873224195105683_);}
+	.st2{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="194.8546" y1="268.8901" x2="1141.528" y2="1187.9417">
+	<stop  offset="0" style="stop-color:#4ED8E6"/>
+	<stop  offset="0.197" style="stop-color:#4BD4E6"/>
+	<stop  offset="0.3865" style="stop-color:#43C9E7"/>
+	<stop  offset="0.5731" style="stop-color:#35B5E9"/>
+	<stop  offset="0.7578" style="stop-color:#229AEC"/>
+	<stop  offset="0.9395" style="stop-color:#0977EF"/>
+	<stop  offset="1" style="stop-color:#006AF0"/>
+</linearGradient>
+<path class="st0" d="M18.2,465.2c0,0-60.3,421.9,482.1,421.9s482.1-421.9,482.1-421.9H18.2z"/>
+<linearGradient id="SVGID_00000025427799070088916490000005427925889418483131_" gradientUnits="userSpaceOnUse" x1="183.9562" y1="-59.3624" x2="1374.2032" y2="1914.3385">
+	<stop  offset="0" style="stop-color:#4ED8E6"/>
+	<stop  offset="1" style="stop-color:#4ED7E6"/>
+</linearGradient>
+<ellipse style="fill:url(#SVGID_00000025427799070088916490000005427925889418483131_);" cx="500.3" cy="465.2" rx="482.1" ry="351.5"/>
+<ellipse class="st2" cx="500.3" cy="465.2" rx="401.8" ry="293"/>
+<g>
+	
+		<image style="overflow:visible;" width="1396" height="1031" xlink:href="940297AA.png"  transform="matrix(0.24 0 0 0.24 46.08 594.48)">
+	</image>
+</g>
+</svg>

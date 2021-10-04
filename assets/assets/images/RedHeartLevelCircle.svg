@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{clip-path:url(#SVGID_00000173145140380807946430000005502123560247327934_);}
+	.st2{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="49.2092" y1="270.602" x2="1358.5096" y2="1181.6039">
+	<stop  offset="0" style="stop-color:#FF9797"/>
+	<stop  offset="1" style="stop-color:#FF5C97"/>
+</linearGradient>
+<path class="st0" d="M20.5,467.9c0,0-60,419.8,479.8,419.8s479.8-419.8,479.8-419.8H20.5z"/>
+<g>
+	<g>
+		<defs>
+			<ellipse id="SVGID_00000111174516614208067810000009028902434949787786_" cx="500.3" cy="467.9" rx="479.8" ry="349.8"/>
+		</defs>
+		<clipPath id="SVGID_00000106825974400232318010000004818104621580441007_">
+			<use xlink:href="#SVGID_00000111174516614208067810000009028902434949787786_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000106825974400232318010000004818104621580441007_);">
+			<g>
+				<defs>
+					<rect id="SVGID_00000100371546635023255700000010892085180795883672_" x="15.5" y="113" width="969.6" height="709.7"/>
+				</defs>
+				<clipPath id="SVGID_00000079453318458329482010000009534022351659360188_">
+					<use xlink:href="#SVGID_00000100371546635023255700000010892085180795883672_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_00000079453318458329482010000009534022351659360188_);">
+					
+						<image style="overflow:visible;" width="2021" height="1479" xlink:href="66BA3FFB.jpg"  transform="matrix(0.48 0 0 0.48 15.36 112.8)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<ellipse class="st2" cx="500.3" cy="467.9" rx="399.8" ry="291.5"/>
+<g>
+	
+		<image style="overflow:visible;" width="1360" height="1007" xlink:href="66BA3FF9.png"  transform="matrix(0.24 0 0 0.24 37.92 579.36)">
+	</image>
+</g>
+</svg>
