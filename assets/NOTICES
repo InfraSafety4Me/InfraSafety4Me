@@ -5543,6 +5543,7 @@ flutter_plugin_android_lifecycle
 google_maps_flutter
 google_maps_flutter_platform_interface
 google_sign_in
+google_sign_in_platform_interface
 google_sign_in_web
 package_info
 path_provider
@@ -6236,7 +6237,6 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 device_info_platform_interface
-google_sign_in_platform_interface
 shared_preferences_platform_interface
 
 Copyright 2017 The Chromium Authors. All rights reserved.
