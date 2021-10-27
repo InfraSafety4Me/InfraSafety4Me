@@ -110293,7 +110293,7 @@ Z.a0W.prototype={
 I(a,b){return E.bhl(K.y(b).A.c,new T.ap(C.al,L.em(C.iB,K.y(b).b,null),null),!1,new Z.aAp())}}
 Z.aAp.prototype={
 $0(){var s=$.n().x
-s.lZ("/dashboard",new Z.aAo(),0,t.X)},
+s.lZ("/dashboard/",new Z.aAo(),0,t.X)},
 $S:0}
 Z.aAo.prototype={
 $1(a){return!1},
@@ -115807,13 +115807,13 @@ G.b6t.prototype={
 $0(){this.a.KD()},
 $S:1}
 G.b6q.prototype={
-$0(){this.a.t1("/dashboard/intro_contact")},
+$0(){this.a.t1("/intro_contact/")},
 $S:1}
 G.b6r.prototype={
 $0(){this.a.t1("/dashboard/privacy_policy")},
 $S:1}
 G.b6s.prototype={
-$0(){this.a.t1("/our_mission")},
+$0(){this.a.t1("/dashboard/our_mission")},
 $S:1}
 G.b6u.prototype={
 $0(){this.a.r=!1},
