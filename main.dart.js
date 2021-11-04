@@ -118392,7 +118392,7 @@ n=m.gjB(m)
 l=n.gbv(n)
 n=m.gjB(m)
 k=n.gbt(n)
-if(C.c.gM(o.gU(p).b.split("."))!=="png"||l>170||k>170)E.nD(!1,new L.b5e(),a,t.z)
+if(C.c.gM(o.gU(p).b.split("."))!=="png"||l>300||k>300)E.nD(!1,new L.b5e(),a,t.z)
 else q.L(new L.b5f(q,j))
 s=4
 break
