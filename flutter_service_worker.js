@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
-"index.html": "98d5e69f452f5b47bba5831a8824f80c",
-"/": "98d5e69f452f5b47bba5831a8824f80c",
+"index.html": "e022fc73dd1f4f25bea257ff788e03da",
+"/": "e022fc73dd1f4f25bea257ff788e03da",
 "safety4me_service_worker.js": "79a07849d4bed63174afbb3ab493c482",
 "main.dart.js": "52fb92ea7a7c44d9736ab9caea73e9cd",
 "web.config": "ac92e3008cb52f53d67d045ed4c9bda0",
@@ -42,7 +42,7 @@ const RESOURCES = {
 "assets/assets/images/IdentificacionCorrecta1Hosp.png": "4586da15a4f5220e3e85434e9e98ba69",
 "assets/assets/images/PrevencionDeCaidas1Hosp.png": "53584432a7802839c75068b44276c27a",
 "assets/assets/images/Graca.png": "5f1725ab850fa686c8464ec4f1e55e33",
-"assets/assets/images/ComunicacaoEntreEquipes2Hosp.png": "bd43ddee36294c8ab183e24b8c2b092f",
+"assets/assets/images/ComunicacaoEntreEquipes2Hosp.png": "f3bfd21d2a19d07427c83860e643d698",
 "assets/assets/images/NewBackground.png": "503e2c6df0d0cc5bbca61b4b4749cb61",
 "assets/assets/images/IdentificacaoCorreta6Hosp.png": "5e5269244460ad40780763ac20d3176e",
 "assets/assets/images/YPacificBlueLogo.png": "9bc55f2c0f87fd87819cc0544e78ff5d",
@@ -109,7 +109,7 @@ const RESOURCES = {
 "assets/assets/images/RafaelRoundedSad.png": "c64d6565e737489286d87041504b0bf7",
 "assets/assets/images/CrossRounded.png": "c40711368433f818a2561f993415ade7",
 "assets/assets/images/FallPrevention4Hosp.png": "0723f13d3671cdf0d256217b32d1224c",
-"assets/assets/images/SegurancaComMedicamentos4Hosp.png": "7ceaa1c60e5bf976500b7f233f6675a1",
+"assets/assets/images/SegurancaComMedicamentos4Hosp.png": "696177451981b7cf20d48f5a46cf47fa",
 "assets/assets/images/Heart.png": "d2e877804a8dafbdf15fc7c237f37bae",
 "assets/assets/images/MobileBackground.png": "241fad318ca06b2d7474dabdacbb65cc",
 "assets/assets/images/PrevencaoDeQuedas2Hosp.png": "c7fe3a52d6aca6a901ee6e1f7c38087d",
