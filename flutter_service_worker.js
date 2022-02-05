@@ -4,20 +4,19 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "779e4407538f0ef1c54b84dbb99cfe80",
-"index.html": "5a060ed0beb0af4203c5728e66ca7809",
-"/": "5a060ed0beb0af4203c5728e66ca7809",
+"index.html": "96d28c13efb819171e69797710d56ca7",
+"/": "96d28c13efb819171e69797710d56ca7",
 "safety4me_service_worker.js": "79a07849d4bed63174afbb3ab493c482",
-"main.dart.js": "e6f99faacdb3e8aae4e1ac2328726dcf",
+"main.dart.js": "622505b8d21e9d0fcf1d9dcd7794233e",
 "web.config": "ac92e3008cb52f53d67d045ed4c9bda0",
 "favicon.png": "cb08503dd068a65b09d0db62578bf0f5",
 "icons/Icon-192.png": "c4553ce1cf349e24ec2c7b03336a09a1",
 "icons/Badge-192.png": "80923c2099d629dcc13e7d9a74297c79",
 "icons/Icon-512.png": "7ec73b601ef160284c0784e395583c65",
 "manifest.json": "cd388b4185c0071e90c205df95b3b483",
-"assets/AssetManifest.json": "38fa3d3be4329fe268c88c177e6f96eb",
-"assets/NOTICES": "af9ccfb05fd2016585d237669582e5cf",
-"assets/FontManifest.json": "0ea8a926168b03867b5b247b2a3b26cc",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/AssetManifest.json": "ae74d4358cde1993fa532f28df850742",
+"assets/NOTICES": "e8bbab8b7a0a81147d7dacdbb8093a57",
+"assets/FontManifest.json": "4856434b59aa218faf4898c5f55ecfe6",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
@@ -247,7 +246,11 @@ const RESOURCES = {
 "assets/assets/animations/HomeAntoniaAndRafael.json": "de9098cc9e802d17752907160e202632",
 "assets/assets/animations/HomeRafaelAndFlorence.json": "7622139131e00240207970afe12f4f0f",
 "assets/assets/animations/HomeFlorenceAndFernando.json": "036de2e6aa7570b078c7c750a11fcd82",
-"flutter_facebook_auth.js": "15ddb918bb42aae3e664d8accc9bb216"
+"flutter_facebook_auth.js": "15ddb918bb42aae3e664d8accc9bb216",
+"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
+"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
+"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
+"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb"
 };
 
 // The application shell files that are downloaded before a service worker can
