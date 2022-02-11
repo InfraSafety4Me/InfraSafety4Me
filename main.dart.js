@@ -111137,8 +111137,7 @@ if(s.c!=null)s.K(new A.bbs(s))},
 $S:1}
 A.bbs.prototype={
 $0(){var s=null,r=this.a
-$.i.toString
-r.d=A.L(A.h("Welcome to",s,"splashPageWelcomeText",A.a([],t.f),s),new A.eW(6,t.f3),s,s,s,s,A.b(r.f,"textStyle"),B.w,s)},
+r.d=A.L("Teste Cache",new A.eW(6,t.f3),s,s,s,s,A.b(r.f,"textStyle"),B.w,s)},
 $S:0}
 A.bbu.prototype={
 $0(){var s=this.a
