@@ -28905,7 +28905,7 @@ _.r=0
 _.x=7
 _.y=!1
 _.z=b
-_.Q=$
+_.Q=null
 _.ch=c
 _.cx=d
 _.cy=e
@@ -109677,9 +109677,7 @@ return new A.S0(new A.a1_(B.fb,r,B.fb,B.fb,B.Lu),q,new A.ff(new A.az(new A.a7(p,
 A.S0.prototype={
 a9(){var s=$.d
 if(s==null)s=$.d=A.i().l(0,null,t.I)
-s=s.t(0,t.a).bN()
-s.toString
-this.Q=s
+this.Q=s.t(0,t.a).bN()
 this.as()
 s=$.d
 if(s==null)s=$.d=A.i().l(0,null,t.I)
@@ -109806,7 +109804,7 @@ break
 case 2:p=n.d
 p.c=n.z.a.a
 s=5
-return A.m(n.cx.FT(A.b(n.Q,"session").a,p),$async$$0)
+return A.m(n.cx.FT(n.Q.a,p),$async$$0)
 case 5:o=b
 n.K(new A.b2n(n))
 o.av(0,new A.b2o(q.c),new A.b2p())
@@ -110270,35 +110268,34 @@ s=A.cT(s,!1,t.nJ)
 r=this.d.e
 r.toString
 s.Ac(r)},
-H(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=b.A(t.w).f,g=$.d
-if(g==null)g=$.d=A.i().l(0,i,t.I)
-s=g.t(0,t.D).ax(b)?0.2:0.35
-r=A.bC(i)
-g=j.e
-q=A.dG(i,!0,i,i,new A.de(i),i)
-if(j.d==null)h=j.B_()
-else{h=h.a.b
-p=A.dQ(B.hU,i,i)
+H(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i=b.A(t.w).f,h=$.d
+if(h==null)h=$.d=A.i().l(0,j,t.I)
+s=h.t(0,t.D).ax(b)?0.2:0.35
+r=A.bC(j)
+h=k.e
+q=A.dG(j,!0,j,j,new A.de(j),j)
+if(k.d==null)i=k.B_()
+else{i=i.a.b
+p=A.dQ(B.hU,j,j)
 $.h.toString
 o=t.f
-p=A.qU(!0,B.b_,!1,i,r,i,i,i,2,A.my(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,!1,i,i,i,A.f("Could you tell us your insurance?",i,"informYourHealthPlan",A.a([],o),i),i,i,i,i,i,i,i,i,i,i,i,i,i),!0,!0,!0,i,!1,i,i,i,i,i,!0,i,1,i,!1,"\u2022",new A.bct(j,r,b),i,i,i,!1,i,i,B.cb,i,i,i,i,i,i,i,B.am,i,B.ck,i,i,i)
-n=A.af(i,A.WE(i,i,new A.bcu(j),t.nJ,t.qQ),B.h,i,i,i,i,h*0.25,i,i,i,i,i)
+p=A.qU(!0,B.b_,!1,j,r,j,j,j,2,A.my(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,p,j,!1,j,j,j,A.f("Could you tell us your insurance?",j,"informYourHealthPlan",A.a([],o),j),j,j,j,j,j,j,j,j,j,j,j,j,j),!0,!0,!0,j,!1,j,j,j,j,j,!0,j,1,j,!1,"\u2022",new A.bct(k,r,b),j,j,j,!1,j,j,B.cb,j,j,j,j,j,j,j,B.am,j,B.ck,j,j,j)
+n=A.af(j,A.WE(j,j,new A.bcu(k),t.nJ,t.qQ),B.h,j,j,j,j,i*0.25,j,j,j,j,j)
 $.h.toString
-m=A.f("I didn't find mine",i,"ididntFind",A.a([],o),i)
-l=j.d.r1
-l.toString
-m=A.ak(j.yU(s,m,l?j.gGe():j.gaH1(),!0),1)
+m=A.ak(k.yU(s,A.f("I didn't find mine",j,"ididntFind",A.a([],o),j),k.gaH1(),!0),1)
 $.h.toString
-k=t.p
-k=A.cA(B.f,h*0.7,i,A.a([new A.fP("assets/images/HectorRounded.png",1,i),p,A.b0(A.a([n,A.bo(A.a([m,A.ak(j.az5(s,A.f("Ok",i,"ok",A.a([],o),i),new A.bcv(j,b),j.f!=null),1)],k),B.m,i,B.Q,B.j)],k),B.m,B.r,B.j)],k),!1)
-h=k}return new A.eF(new A.df(A.dy(q,B.n,h,i,i,i,i),i),g,i)},
-aH2(){var s=this,r=s.d
-r.y=r.db=null
-r.x=B.pN
-s.K(new A.bcw(s))
-r=s.d
-r.toString
-s.zE(r,s.gAm(),new A.bcx(s))}}
+l=t.p
+l=A.cA(B.f,i*0.7,j,A.a([new A.fP("assets/images/HectorRounded.png",1,j),p,A.b0(A.a([n,A.bo(A.a([m,A.ak(k.az5(s,A.f("Ok",j,"ok",A.a([],o),j),new A.bcv(k,b),k.f!=null),1)],l),B.m,j,B.Q,B.j)],l),B.m,B.r,B.j)],l),!1)
+i=l}return new A.eF(new A.df(A.dy(q,B.n,i,j,j,j,j),j),h,j)},
+aH2(){var s,r=this,q=r.d
+q.y=q.db=null
+q.x=B.pN
+r.K(new A.bcw(r))
+q=r.d
+s=q.r1
+s.toString
+s=s?r.gGe():r.gAm()
+r.zE(q,s,new A.bcx(r))}}
 A.bct.prototype={
 $1(a){var s,r,q=this.a
 q.cx=q.ch
