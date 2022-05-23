@@ -5163,7 +5163,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 --------------------------------------------------------------------------------
 charcode
-http_parser
 path
 pool
 shelf_web_socket
@@ -6179,6 +6178,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 dart_style
 glob
 http
+http_parser
 matcher
 pub_semver
 shelf
